@@ -13,6 +13,13 @@
 
 export default {
 	async fetch(request, env, ctx): Promise<Response> {
-		return new Response('Hello World!');
+		let log = {
+			url: request.url,
+			method: request.method,
+			headers: Object.fromEntries(request.headers),
+		  };
+		// Send a log of each request to the pipeline
+		await env.PIPELINE.send([log]);
+		return new Response('Message written successfully');
 	},
 } satisfies ExportedHandler<Env>;
