@@ -8,7 +8,7 @@ This is the starter template for Pipelines, which let you ingest real time data 
 ## Usage
 
 ### Create a pipeline
-** Visit the [getting started guide](https://developers.cloudflare.com/pipelines/getting-started/) for Pipelines for a full guide to creating your first pipeline. **
+**Visit the [getting started guide](https://developers.cloudflare.com/pipelines/getting-started/) for Pipelines for a full guide to creating your first pipeline.**
 
 If you already have a Cloudflare Workers paid account, get started quickly by running this command to create an R2 bucket, and create a pipeline:
 ```sh
