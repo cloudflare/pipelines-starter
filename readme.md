@@ -1,8 +1,8 @@
 # Cloudflare Pipelines
 
-This is the starter template for Pipelines, which let you ingest real time data streams and load into R2.
+This is the starter template for Pipelines, which let you ingest real time data streams and load into R2. This template lets you send data from a Cloudflare Worker, to a pipeline.
 
-* Clone this repository to get started with Pipelines
+* Clone this repository to get started with sending data from a Worker to a pipeline.
 * Review the [Pipelines developer documentation](https://developers.cloudflare.com/pipelines/) to dive deeper into how Pipelines Works
 
 ## Usage
